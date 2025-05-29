@@ -21,7 +21,7 @@ Una aplicación web moderna para calcular e informar sobre el envejecimiento car
 
 ```bash
 # Clonar el repositorio
-git clone [url-del-repositorio]
+git clone https://github.com/jaasidev/heartbeat.git
 
 # Instalar dependencias
 pnpm install
