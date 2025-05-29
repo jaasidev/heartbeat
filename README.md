@@ -1,54 +1,65 @@
-# React + TypeScript + Vite
+# Calculadora de Envejecimiento Cardiovascular 🫀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web moderna para calcular e informar sobre el envejecimiento cardiovascular desarrollada con React y TypeScript.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: 
+  - React 19
+  - TypeScript 5.8
+  - Vite 6
+- **Estilos**: 
+  - TailwindCSS 4
+  - DaisyUI 5
+- **Formularios y Validación**:
+  - React Hook Form
+  - Zod
+- **Routing**:
+  - React Router 7
 
-## Expanding the ESLint configuration
+## 🛠️ Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```bash
+# Clonar el repositorio
+git clone [url-del-repositorio]
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# Instalar dependencias
+pnpm install
+
+# Iniciar servidor de desarrollo
+pnpm dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📋 Scripts Disponibles
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `pnpm dev` - Inicia el servidor de desarrollo
+- `pnpm build` - Compila el proyecto para producción
+- `pnpm lint` - Ejecuta el linter
+- `pnpm preview` - Visualiza la versión de producción
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## ✨ Características
+
+- Interfaz de usuario moderna y responsive
+- Navegación fluida (SPA)
+- Formularios validados
+- Temas claros/oscuros
+- Cálculos precisos de edad cardiovascular
+- Información educativa sobre salud cardiovascular
+
+## 💻 Requisitos del Sistema
+
+- Node.js (versión LTS recomendada)
+- PNPM como gestor de paquetes
+
+## 📝 Licencia
+
+Este proyecto es privado y está destinado solo para uso interno.
+
+## 👥 Autores
+
+- Jaasiel Beltrán Alvarez
+
+
+---
+
+Desarrollado con ❤️ para mejorar la salud cardiovascular
